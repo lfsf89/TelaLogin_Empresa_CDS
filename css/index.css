@@ -1,0 +1,141 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #CCC; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.geral
+{
+   width: 454px;
+   height: 661px;
+   background-color: #fff;
+   border-radius: 5px;
+   
+   
+   
+}
+
+
+.logo
+{
+    
+   width: 452px;
+   border-radius: 5px 5px 0px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 35px;
+   
+   
+}
+
+.imputs
+{
+    width: 452px;
+    margin-top: 50px;
+    
+    
+}
+
+.imputs input
+{
+    width: 350px;
+    height: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+   border: 0px;
+   background-color: #333;
+   color: #CCC;
+   padding-left: 25px;
+   font-size: 16px;
+}
+
+.imputs input::placeholder
+{
+    color:#00A550;
+    opacity: 0.3;
+}
+.imputs button
+{
+    width: 380px;
+    height: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+   border: 0px;
+   background-color: red;
+   color: #fff;
+   padding-left: 25px;
+   font-size: 16px;
+   cursor: pointer;
+   
+}
+
+.info
+{
+    width: 452px;
+    
+    margin-top: 30px;
+}
+
+#lembrar
+{
+    margin-left: 50px;
+    vertical-align: middle;
+    position: relative;
+  top: -1px;
+} 
+
+.info label 
+{
+    color: #00A550;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.ajuda
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+
+.novo
+{
+    width: 452px;
+    margin-top: 100px;
+    
+}
+
+
+.novo label
+{
+    margin-left: 53px;
+    color: #00A550;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.novo a
+{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
